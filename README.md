@@ -1,4 +1,7 @@
 # harddrivedeletionandrecovery
 Production Project - Testing the Effectiveness of Common Deletion Methods and Data Recoverability Post-Deletion
-This is the interactive format for my production project. Code will be updated along with changes to code.
-HM
+<br/>
+This is my Production Project, all files for the interactive dashboard view of my project will be viewable here. 
+<br/>
+<br/>
+Hamish Miller, Leeds Beckett University, c3647670
