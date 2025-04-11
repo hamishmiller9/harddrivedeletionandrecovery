@@ -12,6 +12,12 @@
         <?php include '../includes/header.php'; ?>
         <div class="main-content">
             <h2>Home</h2>
+            <p></p>
+            <br>
+            <h3>Getting Started</h3>
+            <p></p>
+            <h3>Project Details</h3>
+            This project was created by<br> Hamish Miller<br> Student ID: c3647670 <br> University: Leeds Beckett University <br>Course: Cyber Security & Digital Forensics (Bsc Hons)</p>
         </div>
     </div>
 </body>

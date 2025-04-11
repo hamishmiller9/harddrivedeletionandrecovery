@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Header Styles */
+/* Header */
 .header-container {
     background-color: #2c3e50;
     color: #ffffff;
@@ -22,9 +22,9 @@ body {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Take up full width of the wrapper */
-    max-width: 800px; /* Optional: Set a max-width for better readability */
-    margin: 0 auto; /* Center within the wrapper */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .header-container h1 {
@@ -33,7 +33,7 @@ body {
     font-weight: 600;
 }
 
-/* Navbar Styles */
+/* Navbar */
 nav {
     background-color: #34495e;
     width: 200px;
@@ -43,7 +43,7 @@ nav {
     left: 0;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Ensure navbar stays above other content */
+    z-index: 1000;
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav ul li a:hover {
     color: #1abc9c;
 }
 
-/* Main Content Styles */
+/* Main Content */
 .main-content {
     background-color: #ffffff;
     border-radius: 8px;
@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 .main-content p {
     font-size: 1.1rem;
-    color: #333;
+    color: inherit;
     line-height: 1.8;
 }
 
@@ -90,22 +90,80 @@ nav ul li a:hover {
         position: relative;
         padding: 10px;
     }
-
+    
     nav ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     nav ul li {
         margin: 10px;
     }
-
+    
     .content-wrapper {
-        margin-left: 20px; /* Reset margin for smaller screens */
+        margin-left: 20px;
     }
-
+    
     .header-container {
-        margin: 20px auto; /* Center within the wrapper */
+        margin: 20px auto;
     }
+}
+ul {
+    padding-left: 0;  /* Removes default indentation */
+    list-style-position: inside;  /* Aligns bullets with text */
+    font-size: inherit;  /* Ensures it matches surrounding text */
+    margin: 0;  /* Removes extra spacing */
+}
+
+li {
+    font-size: inherit;  /* Matches the surrounding text */
+}
+
+/* Color-Blind Mode */
+.color-blind-body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.color-blind-header {
+    background-color: #0072B2;
+    color: #ffffff;
+}
+
+.color-blind-nav {
+    background-color: #009E73;
+}
+
+.color-blind-nav a {
+    color: #ffffff;
+}
+
+.color-blind-nav a:hover {
+    color: #E69F00;
+}
+
+.color-blind-main-content {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Dark Mode */
+.dark-mode-body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode-header {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.dark-mode-nav {
+    background-color: #333;
+}
+
+.dark-mode-main-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
