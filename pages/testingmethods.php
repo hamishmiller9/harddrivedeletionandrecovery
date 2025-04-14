@@ -74,6 +74,7 @@
                             </tr>
                         </tbody>
                     </table>
+                <br>
                 <h2>Deletion Methods Tested</h2>
                 <h3>Windows Built-in Tools (Recycle Bin, Disk Management)</h3>
                     <p>This project focuses upon the two most used deletion methods built into Windows 11, the Recycle Bin and Disk Management. These methods are integrated into the operating system and serve as a convenient solution acting as the first line of defence for users deleting files and preparing storage devices. </p>

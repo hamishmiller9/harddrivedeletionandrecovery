@@ -12,6 +12,8 @@
         <?php include '../includes/header.php'; ?>
         <div class="main-content">
             <h2>Chain of Custody</h2>
+            <p>These are the Exhbit Continuity Forms that were used throughout the testing process, they show the time and date each action was taken.</p>
+            <br>
                 <img src="../chainofcustody/coc1.png" alt="Chain of Custody 1" width="700">
                 <img src="../chainofcustody/coc2.png" alt="Chain of Custody 2" width="700">
                 <img src="../chainofcustody/coc3.png" alt="Chain of Custody 3" width="700">

@@ -35,8 +35,6 @@
                         Information Commissioner's Office - Guideance on deleting data
                     </a> – Information on securely deleting data from devices, expanding further than just HDDs.
                 </li>
-            </ul>
-
             <p>Thank you for viewing this project</p>
         </div>
     </div>

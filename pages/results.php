@@ -13,7 +13,6 @@
         <div class="main-content">
         <h2>Results of Testing Deletion Methods</h2>
         <p>Below are tables containing the results gathered from this project. The results show hash values, time taken for deletion and recoverability across different file systems. Please see the <b>Conclusions and Recommendations</b> page on the left-hand side for more insight into testing. </p>
-        <p>Additionally, please see Chain of Custody below results for information on gathering the results.</p>
         <h3>Recycle Bin Deletion Results</h3>
         <table border="1">
         <thead>
