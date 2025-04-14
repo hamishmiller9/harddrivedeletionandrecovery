@@ -12,12 +12,11 @@
     <?php include '../includes/header.php'; ?>
     <div class="main-content">
       <h2>Accessibility Settings</h2>
-      <!-- Buttons for Accessibility Modes -->
-      <button id="colorblind-btn">Toggle Color-Blind Mode</button>
-      <button id="darkmode-btn">Toggle Dark Mode</button>
-      <button id="reset-btn">Reset to Original Colors</button>
+        <button id="colorblind-btn">Toggle Color-Blind Mode</button>
+        <button id="darkmode-btn">Toggle Dark Mode</button>
+        <button id="reset-btn">Reset to Original Colors</button>
+      </div>
     </div>
-  </div>
-  <script src="../assets/script.js"></script>
+    <script src="../assets/script.js"></script>
 </body>
 </html>
